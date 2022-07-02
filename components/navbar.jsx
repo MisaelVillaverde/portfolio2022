@@ -69,7 +69,7 @@ const Navbar = (props) => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
         </Stack>
 
@@ -90,7 +90,10 @@ const Navbar = (props) => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="https://github.com/MisaelVillaverde/portfolio2022">
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/MisaelVillaverde/portfolio2022"
+                >
                   View Source
                 </MenuItem>
               </MenuList>
