@@ -7,30 +7,30 @@ import TechBadge from "../../components/tech-badge";
 
 const stack = [
   "React.js",
-  "Firebase Auth",
+  "React Context API",
+  "Firebase Hosting",
   "Firebase Firestore",
-  "Stripe",
   "CSS",
 ];
 
 const Work = () => {
   return (
-    <Layout title="Amazon-Clone">
+    <Layout title="Twitter-Clone">
       <Container>
         <Title>
-          Amazon-Clone <Badge>2019</Badge>
+          Twitter-Clone <Badge>2019</Badge>
         </Title>
 
         <Box my={4}>
           <Meta>Website</Meta>
-          <Link href="https://clone-54946.web.app/" target="_blank">
-            https://clone-54946.web.app <ExternalLinkIcon />
+          <Link href="https://twitter-clone-58e2b.web.app" target="_blank">
+            https://twitter-clone-58e2b.web.app <ExternalLinkIcon />
           </Link>
         </Box>
 
         <P>
-          A mock Amazon website that allows users to add items to their cart,
-          view their cart, and checkout.
+          A Twitter Clone with React, React-Context API, Hosting with Google
+          Firebase.
         </P>
 
         <Box my={4}>
@@ -38,7 +38,7 @@ const Work = () => {
             <TechBadge key={tech}>{tech}</TechBadge>
           ))}
         </Box>
-        <WorkImage src="/images/amazon.jpg" />
+        <WorkImage src="/images/twitter.jpg" />
       </Container>
     </Layout>
   );

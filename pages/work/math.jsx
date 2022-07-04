@@ -1,8 +1,18 @@
-import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
+import { Container, Badge, Link, Box } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
 import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
+import TechBadge from "../../components/tech-badge";
+
+const stack = [
+  "Python Flask",
+  "Jupyter Notebooks",
+  "Jinja templating",
+  "JavaScript",
+  "Katexjs",
+  "CSS",
+];
 
 const Work = () => {
   return (
@@ -11,26 +21,30 @@ const Work = () => {
         <Title>
           Math Calculator (ft. Fourier Series) <Badge>2021</Badge>
         </Title>
-        <P>A calculator that allows users to calculate most of mathematical expressions(trigonometrics, derivative, integral, laplace) and display step by step solutions, it have a fourier series extra feature</P>
-        <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Github Repo</Meta>
-            <Link
-              href="https://github.com/MisaelVillaverde/mongolerias-calculator-pro/tree/fourier-series"
-              target="_blank"
-            >
-              https://github.com/MisaelVillaverde/mongolerias-calculator-pro/{" "}
-              <ExternalLinkIcon />
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Meta>Stack</Meta>
-            <span>
-              Python Flask, Jupyter Notebooks, Jinja templating, Vanilla
-              Javascript, Katexjs, styling with css.
-            </span>
-          </ListItem>
-        </List>
+
+        <Box my={4}>
+          <Meta>Github Repo</Meta>
+          <Link
+            href="https://github.com/misaelvillaverde/mongolerias-calculator-pro/tree/fourier-series"
+            target="_blank"
+          >
+            https://github.com/misaelvillaverde/mongolerias-calculator-pro
+            <ExternalLinkIcon />
+          </Link>
+        </Box>
+
+        <P>
+          A calculator that allows users to calculate most of mathematical
+          expressions(trigonometrics, derivative, integral, laplace) and display
+          step by step solutions, it have a fourier series extra feature
+        </P>
+
+        <Box my={4}>
+          {stack.map((tech) => (
+            <TechBadge key={tech}>{tech}</TechBadge>
+          ))}
+        </Box>
+
         <WorkImage src="/images/math.png" />
         <WorkImage src="/images/math2.png" />
       </Container>

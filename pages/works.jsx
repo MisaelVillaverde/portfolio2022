@@ -145,7 +145,7 @@ Virtual Goods Marketplace"
         </Section>
         <Section delay={0.6}>
           <WorkGridItem
-            id="realstate"
+            id="real-state"
             title="Real State Website"
             thumbnail={thumbRealState}
           >

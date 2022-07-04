@@ -5,40 +5,34 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 import TechBadge from "../../components/tech-badge";
 
-const stack = [
-  "React.js",
-  "Firebase Auth",
-  "Firebase Firestore",
-  "Stripe",
-  "CSS",
-];
+const stack = ["HTML", "CSS"];
 
 const Work = () => {
   return (
-    <Layout title="Amazon-Clone">
+    <Layout title="Real-State">
       <Container>
         <Title>
-          Amazon-Clone <Badge>2019</Badge>
+          Coffee Shop Website <Badge>2019</Badge>
         </Title>
 
         <Box my={4}>
           <Meta>Website</Meta>
-          <Link href="https://clone-54946.web.app/" target="_blank">
-            https://clone-54946.web.app <ExternalLinkIcon />
+          <Link
+            href="https://naughty-wozniak-26b457.netlify.app"
+            target="_blank"
+          >
+            https://naughty-wozniak-26b457.netlify.app <ExternalLinkIcon />
           </Link>
         </Box>
 
-        <P>
-          A mock Amazon website that allows users to add items to their cart,
-          view their cart, and checkout.
-        </P>
+        <P>Responsive Coffee Shop website, built with html, css</P>
 
         <Box my={4}>
           {stack.map((tech) => (
             <TechBadge key={tech}>{tech}</TechBadge>
           ))}
         </Box>
-        <WorkImage src="/images/amazon.jpg" />
+        <WorkImage src="/images/cafe.jpg" />
       </Container>
     </Layout>
   );
