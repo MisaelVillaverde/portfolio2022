@@ -1,4 +1,4 @@
-import { Badge, Kbd, Tag } from "@chakra-ui/react";
+import { Tag } from "@chakra-ui/react";
 
 const colors = [
   "red",
@@ -17,6 +17,7 @@ const TechBadge = ({ children }) => (
     variant="outline"
     colorScheme={colors[Math.floor(Math.random() * colors.length)]}
     m={1}
+    fontFamily="'DM Mono', monospace"
   >
     {children}
   </Tag>

@@ -24,12 +24,12 @@ const Works = () => {
   return (
     <Layout title="Works">
       <Container>
-        <Heading as="h3" fontSize={20} mb={4}>
+        <Heading as="h3" fontSize={25} mb={4}>
           Work History Projects
         </Heading>
 
         <Divider my={3} />
-        <Heading as="h4" fontSize={17} mb={4}>
+        <Heading as="h4" fontSize={20} mb={4}>
           Transmira
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -56,7 +56,7 @@ Virtual Goods Marketplace"
         </SimpleGrid>
 
         <Divider my={3} />
-        <Heading as="h4" fontSize={17} mb={4}>
+        <Heading as="h4" fontSize={20} mb={4}>
           HypernovaLabs
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -86,7 +86,7 @@ Virtual Goods Marketplace"
 
         <Section delay={0.1}>
           <Divider my={6} />
-          <Heading as="h3" fontSize={20} mb={4}>
+          <Heading as="h3" fontSize={25} mb={4}>
             Personal Projects
           </Heading>
         </Section>
@@ -139,7 +139,7 @@ Virtual Goods Marketplace"
         <Section delay={0.5}>
           <Divider my={6} />
 
-          <Heading as="h3" fontSize={20} mb={4}>
+          <Heading as="h3" fontSize={25} mb={4}>
             Old Projects
           </Heading>
         </Section>

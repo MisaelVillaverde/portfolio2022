@@ -28,7 +28,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hi👋, I&apos;m a full stack developer based in Panama City 🇵🇦.
+          Hi👋, I&apos;m a full stack developer based in Panama 🇵🇦.
         </Box>
 
         <Box display={{ md: "flex" }}>

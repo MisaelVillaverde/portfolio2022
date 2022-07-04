@@ -784,10 +784,20 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/m-plus-rounded-1c@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/@fontsource/m-plus-rounded-1c/-/m-plus-rounded-1c-4.5.0.tgz"
-  integrity sha512-1aEtf8LHAlihD4UrFI8rIhhBP/xZ62fvefKUqh5b1E+kcGYDOBSk6BaH3q0R7vmZHUjpjUCxrqIdt7GfUWc9yg==
+"@fontsource/dm-mono@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/dm-mono/-/dm-mono-4.5.8.tgz#83783fcf23920f7409de9d7aa0ff5807e1c6a93c"
+  integrity sha512-BWVF+sw+xultMAp1VXXkTF4VTS8G4ZhmlX6bLz1xZtblmee/d0vfH4yWYZ5OyYeF/lUnSefZhRWW7cc2Rqjifw==
+
+"@fontsource/dm-sans@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/dm-sans/-/dm-sans-4.5.7.tgz#fcf6b866eeb2cf8b9cf8a6e7756f21e8ed3cfc7f"
+  integrity sha512-pYzU78F4HZHMpERjarfOnQZ20XL2thfDXTaZW30CoQgfqgZSSxHDfB6bVrs6jUPrgeAxK5ZuGG9hkpvZJT7SdQ==
+
+"@fontsource/dm-serif-display@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/dm-serif-display/-/dm-serif-display-4.5.7.tgz#4becca30d5cc2b3410d9abae09f5c50ee9905a1b"
+  integrity sha512-kNREVWWUQp/YivPZ+iehSUZK+kGeIV+fcNS4jCIiK0mwKW9bIex72fpKHgzeFSJ3UNi5UfQmmHoyTjBtcmi8EA==
 
 "@hapi/accept@5.0.2":
   version "5.0.2"

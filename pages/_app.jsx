@@ -1,5 +1,6 @@
-import "@fontsource/m-plus-rounded-1c/700.css";
-import "@fontsource/m-plus-rounded-1c/900.css";
+import "@fontsource/dm-serif-display";
+import "@fontsource/dm-sans";
+import "@fontsource/dm-mono";
 
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "../components/layouts/main";
