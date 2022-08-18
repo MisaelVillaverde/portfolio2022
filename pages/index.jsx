@@ -15,7 +15,7 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import { BioSection, BioYear } from "../components/bio";
-import { IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
+import { IoLogoInstagram, IoLogoGithub, IoLogoDiscord, IoLogoLinkedin } from "react-icons/io5";
 
 const Page = () => {
   return (
@@ -113,7 +113,18 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoGithub />}
                 >
-                  @misaelvillaverde
+                  misaelvillaverde
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://linkedin.com/in/misael-villaverde" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  misael-villaverde
                 </Button>
               </Link>
             </ListItem>
@@ -127,7 +138,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoInstagram />}
                 >
-                  @misael_villab
+                  misael_villab
                 </Button>
               </Link>
             </ListItem>
@@ -141,7 +152,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoDiscord />}
                 >
-                  @dogmeat
+                  dogmeat
                 </Button>
               </Link>
             </ListItem>
