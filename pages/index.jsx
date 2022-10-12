@@ -83,7 +83,7 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2020</BioYear>
+            <BioYear>2019</BioYear>
             Enrolled as a Backend Software developer at{" "}
             <Link href="https://www.hypernovalabs.com/" target="_blank">
               Hypernovalabs
@@ -92,7 +92,7 @@ const Page = () => {
             Python Flask, Golang, Docker, etc.
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
+            <BioYear>2021</BioYear>
             Full Stack software developer at{" "}
             <Link href="https://www.transmira.com/" target="_blank">
               Transmira
