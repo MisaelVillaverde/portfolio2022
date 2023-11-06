@@ -12,7 +12,7 @@ const Work = () => {
     <Layout title="Piano">
       <Container>
         <Title>
-          Piano <Badge>2019</Badge>
+          Piano <Badge>2020</Badge>
         </Title>
 
         <Box my={4}>
