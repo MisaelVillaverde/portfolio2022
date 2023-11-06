@@ -28,7 +28,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hi👋, I&apos;m a full stack developer based in Panama 🇵🇦.
+          Hi👋, I&apos;m a full stack engineer based in Panama 🇵🇦.
         </Box>
 
         <Box display={{ md: "flex" }}>
@@ -36,7 +36,7 @@ const Page = () => {
             <Heading as="h2" fontWeight="900">
               Misael Villaverde
             </Heading>
-            <p>Software dev at Transmira Inc. 🧑‍🚀 ( Engineer / Developer )</p>
+            <p>Software Engineer at Transmira Inc. 🧑‍🚀</p>
           </Box>
           <Box
             flexShrink={0}
@@ -61,14 +61,14 @@ const Page = () => {
             About
           </Heading>
           <Paragraph>
-            Misael is a full stack software engineer that loves to solve real
+            I am a full stack software engineer —with a focus on backend— that loves to solve real
             life challenging problems with elegant and straightforward
-            solutions. He is currently working as a software developer at{" "}
+            solutions. I'm currently working as a software developer at{" "}
             <Link href="https://www.transmira.com/" target="_blank">
               Transmira
             </Link>{" "}
-            where he is a member of the team that is responsible for the
-            development of the OmniscapeXR 3D web platforms.
+            where I'm a member of the team that is responsible for the
+            development of the OmniscapeXR 3D web platforms and the Core Services API.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -97,8 +97,10 @@ const Page = () => {
             <Link href="https://www.transmira.com/" target="_blank">
               Transmira
             </Link>
-            . Working with NextJS and 3D on the web platforms such as babylon,
+            . Started Working with NextJS and 3D on the web platforms such as babylon,
             threejs, h3js, and cesium, on top of Google Cloud Services.
+            <br/>
+            Now working on the Core Services API to seamlessly connect our data to all our client applications.
           </BioSection>
         </Section>
         <Section delay={0.3}>

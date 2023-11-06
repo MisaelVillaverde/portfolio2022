@@ -15,6 +15,7 @@ import thumbPiano from "../public/images/piano.jpg";
 import thumbAmazon from "../public/images/amazon.jpg";
 import thumbTwitter from "../public/images/twitter.jpg";
 import thumbWhatsapp from "../public/images/whatsapp.jpg";
+import thumbOmniCore from "../public/images/omnicore.png";
 
 // Old Projects Thumbnails
 import thumbRealState from "../public/images/bienes.jpg";
@@ -33,6 +34,16 @@ const Works = () => {
           Transmira
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="omniscape-core"
+              title="OMNISCAPE™ CORE API"
+              thumbnail={thumbOmniCore}
+            >
+              A Golang MonoRepo containing the important CRUD + Ad Hoc Operations
+              of the OmniscapeXR Platform
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="marketplace"

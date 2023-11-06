@@ -17,7 +17,7 @@ const TechBadge = ({ children }) => (
     variant="outline"
     colorScheme={colors[Math.floor(Math.random() * colors.length)]}
     m={1}
-    fontFamily="'DM Mono', monospace"
+    fontFamily="'Space Mono', monospace"
   >
     {children}
   </Tag>

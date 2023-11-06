@@ -25,11 +25,10 @@ const Logo = () => {
           <Image src="/images/dog.jpg" alt="logo" width={20} height={20} />
           <Text
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
-            fontWeight="bold"
-            fontFamily="'DM Mono'"
+            fontFamily="'Space Mono', monospace"
             ml={3}
           >
-            misaelvillaverde
+            potifar
           </Text>
         </LogoBox>
       </a>
