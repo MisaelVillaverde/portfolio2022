@@ -63,11 +63,11 @@ const Page = () => {
           <Paragraph>
             I am a full stack software engineer —with a focus on backend— that loves to solve real
             life challenging problems with elegant and straightforward
-            solutions. I'm currently working as a software developer at{" "}
+            solutions. I&apos;m currently working as a software developer at{" "}
             <Link href="https://www.transmira.com/" target="_blank">
               Transmira
             </Link>{" "}
-            where I'm a member of the team that is responsible for the
+            where I&apos;m a member of the team that is responsible for the
             development of the OmniscapeXR 3D web platforms and the Core Services API.
           </Paragraph>
           <Box align="center" my={4}>

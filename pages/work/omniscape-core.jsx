@@ -32,8 +32,8 @@ const Work = () => {
           <UnorderedList>
             <ListItem>Users</ListItem>
             <ListItem>Friends</ListItem>
-            <ListItem>Users' inventories</ListItem>
-            <ListItem>Users' Game State Machine</ListItem>
+            <ListItem>Users&apos; inventories</ListItem>
+            <ListItem>Users&apos; Game State Machine</ListItem>
             <ListItem>Purchases made to the marketplace</ListItem>
             <ListItem>
               User/Company Item GeoLocation CRUD used by our Augmented and
@@ -49,7 +49,7 @@ const Work = () => {
         </P>
         <br />
         <P>
-          It's deployed on Google Cloud Platform Compute Engine, with CapRover
+          It&apos;s deployed on Google Cloud Platform Compute Engine, with CapRover
           as the Deployment server management.
         </P>
 
