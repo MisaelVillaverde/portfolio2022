@@ -21,17 +21,7 @@ const Page = () => {
   return (
     <Layout>
       <Container maxW="none">
-        <Box
-          borderRadius="lg"
-          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-          p={3}
-          mb={6}
-          align="center"
-        >
-          Hi👋, I&apos;m a full stack engineer based in Panama 🇵🇦.
-        </Box>
-
-        <Box display={{ md: "flex" }}>
+        <Box display={{ md: "flex" }} alignItems={{ md: "center" }}>
           <Box flexGrow={1}>
             <Heading as="h2" fontWeight="900">
               Misael Villaverde
@@ -51,7 +41,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/misael.jpg"
+              src="/images/misael.png"
               alt="Misael Villaverde Profile Pic"
             />
           </Box>
@@ -146,7 +136,7 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Link
-                href="https://discord.com/users/882024675968950353"
+                href="https://discord.com/users/1127846011038072842"
                 target="_blank"
               >
                 <Button
@@ -154,7 +144,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoDiscord />}
                 >
-                  dogmeat
+                  bartolo.ebenezer
                 </Button>
               </Link>
             </ListItem>
